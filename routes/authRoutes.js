@@ -12,6 +12,5 @@ router.get('/signup', getsignUp);
 router.get('/signin', getsignIn);
 router.post('/signup', postsignUp);
 router.post('/signin', postsignIn);
-// router.post('/logout', (req, res) => {});
 
 export default router;
